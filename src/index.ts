@@ -36,7 +36,7 @@ async function main() {
     main.setAuthor({ name: post.author.name, iconURL: post.author.pfp });
     main.setURL(post.url);
     main.setTitle("[ post ]");
-    main.setFooter({ text: "@cannyworm/facebook-scraper" });
+    main.setFooter({ text: "@cannyworm/fb-bot" });
 
     if (post.text) main.setDescription(post.text);
 
